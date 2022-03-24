@@ -1,0 +1,45 @@
+#search {
+  max-width: 450px;
+  margin: auto;
+}
+
+.globaltable {
+  margin-top: 2%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.barchart {
+  margin-top: 9%;
+  margin-left: 4%;
+  height: 570px;
+  overflow: scroll;
+}
+.suggestionContent {
+  margin-top: 4%;
+  height: 450px;
+  overflow: scroll;
+}
+td:hover {
+  background-color: rgb(190, 193, 194);
+}
+thead {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.loader {
+  margin-top: 30%;
+}
